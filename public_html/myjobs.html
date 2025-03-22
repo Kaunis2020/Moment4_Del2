@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--Larissa-->
+<html>
+    <head>
+        <title>Uppgift 4</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="js/works.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-expand-sm bg-primary">                              
+                <div class="dropdown">
+                    <a id="menubutton" class="btn btn-primary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <b> Visa </b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="index.html"><b>Start</b></a></li>
+                        <li><a class="dropdown-item" href="courses.html"><b>Kurser</b></a></li>
+                        <li><a class="dropdown-item" href="#"><b>Arbeten</b></a></li>
+                    </ul>
+                </div>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link text-white" href ="login.html"><b> Logga in </b></a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href ="about.html"><b> Om oss </b></a></li>
+                </ul>
+            </nav> 
+            <h1>Uppgift 4 - Autentisering och säkerhet</h1>
+            <br/>
+            <p id="message"></p>
+            <br/>
+            <p>Uppgift 4 handlar om autentisering och säkerhet.</p>
+            <p>Uppgift 4 består av två separata delar: en serverdel och en klientdel.</p>
+            <p>Man kan registrera ett användarkonto och logga in för att lägga till kurser och arbeten.</p>
+            <p><b>Denna uppgift använder en SQLite-databas som lagras internt på en fil.</b></p>
+            <p>På denna sida kan Du se mina arbeten.</p>
+            <p>Databasen öppnas i Read Only-läget.</p>
+            <p>För att lägga till och ta bort arbeten, måste Du registrera Dig eller logga in som <b>webbadmin</b>.</p>
+            <br/>
+            <br/>
+            <div id="loadplace"></div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+/* 
+    Created on : 15 jan. 2025, 20:39:32
+    Author     : Larissa
+*/
+
+#usertable{
+    width:70%;
+    margin:auto;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#displaytable{
+    width: 95%;
+    margin:auto;
+}
+
+#displaytable caption{
+    text-align: center;
+    caption-side: top;
+    margin-bottom:20px;
+    font-size: 20px;
+}
+
+#message {
+    color: red;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.editbtn{
+    background-color: transparent;
+    border:none;
+    width:7%;
+}
+
+input:read-only {
+    background-color: #e5e4e2;
+    border: 0;
+}
+
+[readonly]:focus{
+    background-color: #e5e4e2;
+    border: 0;
+}
+
+nav{
+    margin-bottom:25px;
+}
+
+li.nav-item{
+    padding-right:40px;
+    font-size:20px;
+}
+
+#menubutton{
+    margin-left:20px;
+    padding-right:40px;
+    font-size:22px;
+}
+
+#logout{
+    font-size: 20px;
+    font-weight: bolder;
+}
